@@ -1,0 +1,9 @@
+
+To edit the main window in this example, open the ui_mainwindow.ui in the resources directory 
+with the Qt Designer application. If you have installed PySide6, just search for designer.exe 
+to find it.
+
+When you have made your changes to the .ui file, you manually have to run the fixui.py to 
+process and distrubute the resulting file throughout the project. Just type:
+
+    python fixui.py

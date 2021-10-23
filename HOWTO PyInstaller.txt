@@ -1,0 +1,10 @@
+
+Run this command from within the project catalouge (that is the same directory as the start.py file):
+
+    pyi-makespec --windowed --add-binary ./resources/icon.ico;resources --icon=./resources/icon.ico --name="PySide6 Complex Example Project" --onefile start.py
+
+This will create a .spec file which pyinstaller must have in the following step. Now type:
+
+    pyinstaller "PySide6 Complex Example Project.spec"
+
+And voila, after some processing the executable should now appear in the following dist folder.
